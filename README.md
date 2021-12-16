@@ -31,25 +31,25 @@ Galutinis vidurkis yra apskaičiuojamas pagal formulę `galutinis = 0.4 * vidurk
 
 Programos veikimo greičio analizė:
 
-### Failo generavimo laikas su vector konteineriu:
+### Failo nuskaitymo laikas su vector konteineriu:
 | Studentų sk.       | 1000    | 10,000  | 100,000   | 1,000,000  | 10,000,000 |
 | :----------    | :------ | :------ | :-------- | :--------- | :--------- |
-| Laikas (s)  | 0.0159 | 0.1366 | 1.2027   | 11.8328    | 157.155    |
+| Laikas (s)  | 0.0079 | 0.0688 | 0.7845   | 6.1816    | 65.6402    |
 
 ### Failo grupavimo laikas su vector konteineriu:
 | Studentų sk.       | 1000    | 10,000  | 100,000   | 1,000,000  | 10,000,000 |
 | :----------    | :------ | :------ | :-------- | :--------- | :--------- |
 | Laikas (s)  | 0.0009 | 0.0059 | 0.0478   | 0.5305   | 1.4129    |
 
-### Failo generavimo laikas su list konteineriu:
+### Failo nuskaitymo laikas su list konteineriu:
 | Studentų sk.       | 1000    | 10,000  | 100,000   | 1,000,000  | 10,000,000 |
 | :----------    | :------ | :------ | :-------- | :--------- | :--------- |
-| Laikas (s)  | 0.0312 | 0.2570 | 2.3904   | 13.5063   | 128.097    |
+| Laikas (s)  | 0.0089 | 0.0788 | 0.6473   | 6.4587   | 64.1781    |
 
 ### Failo grupavimo laikas su list konteineriu:
 | Studentų sk.       | 1000    | 10,000  | 100,000   | 1,000,000  | 10,000,000 |
 | :----------    | :------ | :------ | :-------- | :--------- | :--------- |
-| Laikas (s)  | 0 | 0.0156 | 0.0624   | 0.4576   | 4.6564    |
+| Laikas (s)  | 0 | 0.0050 | 0.0439   | 0.4374   | 4.4586    |
 
 
 ## Programos diegimas ir paleidimas
